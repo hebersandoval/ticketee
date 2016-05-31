@@ -12,7 +12,7 @@ class ProjectsController < ApplicationController
       flash[:notice] = "Project has been created."
       redirect_to @project
     else
-      # nothing, yet. [left off in page 68]
+      # nothing, yet.
     end
   end
 
